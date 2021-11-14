@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML – сторінка з таблицею, яка наведена у файлі Платіжне_доручення.doc.</title>
+        <style>
+            table{
+                margin: auto;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid black;
+                padding: 3px;
+            }
+            .top-center{
+                text-align: center;
+                vertical-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td rowspan="4" class="top-center">Повідомлення</td>
+                <td colspan="5">
+                    Отримувач платежу: СП УМЗ<br>
+                    Рахунок отримувача: 260074125<br>
+                    Код отримувача: 14333937<br>
+                    Установа банку "Аваль" в м. Києві МФО 300335<br>
+                    <br>
+                    АБОНЕНТ: Іванов Андрій Олексійович
+                </td>
+            </tr>
+            <tr class="top-center">
+                <td>Вид<br>платежу</td>
+                <td>Особистий<br>рахунок</td>
+                <td>Номер<br>рахунку-<br>фактури</td>
+                <td>Номер<br>телефону</td>
+                <td>Сума<br>грн.</td>
+            </tr>
+            <tr class="top-center">
+                <td>01</td>
+                <td>1.308278</td>
+                <td>G100148253</td>
+                <td>80505803306</td>
+                <td>147</td>
+            </tr>
+            <tr>
+                <td colspan="5">Підпис платника: __________ Дата: _______/_______/_____</td>
+            </tr>
+        </table>
+    </body>
+</html>
